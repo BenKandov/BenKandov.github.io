@@ -1,0 +1,48 @@
+.square{
+	border-width: 3px;
+	border-style: solid;
+	width: 150px;
+	height:150px;
+	border-color: black;
+	font-size: 96px;
+	text-align: center;
+	border-color: teal;
+	color:maroon;
+}
+#gameBoard{
+	position:absolute;
+	bottom:10%;
+	left:33%;
+}
+body{
+	background-color: white;
+}
+#gameStatus{
+	position:absolute;
+	text-align: center;
+	top:0%;
+	font-size: 32px;
+	color:maroon;
+}
+#startOver{
+	color: white;
+	position: absolute;
+	text-align: center;
+	top:20%;
+	left:5%;
+	font-size: 16px;
+	background-color: teal;
+	opacity:0.6;
+	padding:14px;
+}
+#gameMode{
+	color: white;
+	position: absolute;
+	text-align: center;
+	top:30%;
+	left:5%;
+	font-size: 16px;
+		background-color: teal;
+	opacity:0.6;
+	padding:14px;
+}
